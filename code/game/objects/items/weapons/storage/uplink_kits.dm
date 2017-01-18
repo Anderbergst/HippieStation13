@@ -333,3 +333,11 @@ obj/item/weapon/storage/box/syndie_kit/shotguntender
 	new /obj/item/clothing/mask/gas/hockey(src)
 	new /obj/item/weapon/storage/belt/hockey(src)
 	return
+
+obj/item/weapon/storage/box/syndie_kit/lasereyes
+	name = "laser eyes kit"
+
+obj/item/weapon/storage/box/syndie_kit/lasereyes/New()
+	..()
+	new /obj/item/weapon/dnainjector/lasereyesmut(src)
+	return
