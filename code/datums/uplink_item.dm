@@ -145,7 +145,7 @@ var/list/uplink_items = list()
 
 //GENETICIST
 /datum/uplink_item/job_specific/lasereyes
-	name = "DNA Injector Laser Eyes"
+	name = "Laser Eyes DNA Injector"
 	desc = "An injector containing a syndicate modified retrovirus strain that mutates the user's eyes allowing them to project laser bolts at will."
 	item = /obj/item/weapon/storage/box/syndie_kit/lasereyes
 	cost = 8
